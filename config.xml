@@ -15,5 +15,11 @@
   <preference name="BackupWebStorage" value="none"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  <gap:platform name="android">
+      <gap:feature name="CPresage">
+          <param name="android-package" value="io.presage.CPresage"/>
+          <param name="onload" value="true" />
+      </gap:feature>
+  </gap:platform>
   </feature>
 </widget>
