@@ -1,0 +1,18 @@
+/* Empty. Add your own CSS if you like */
+.btn {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    bottom: 20%;
+    left: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(../img/background.png);
+    height: 600px;
+    width: 600px
+}
